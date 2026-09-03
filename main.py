@@ -61,6 +61,7 @@ def book_menu() -> None:
                 # s = SimpleRepository[Book]()
                 # s.add(book)
                 # print(s.all())
+                #یک تغییر الکی
 
 
             except ValueError as error:
