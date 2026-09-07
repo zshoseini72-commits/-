@@ -49,10 +49,11 @@ def book_menu() -> None:
 
             try:
                 book = input_book()
+                name="reza"
 
-                result = BookService.add_book(book)
+                result =  BookService.add_book(book)
 
-                print(result)
+                print(result,name)
 
                 #برای اجرای Generic
                 # print(BookService.repository.all())
