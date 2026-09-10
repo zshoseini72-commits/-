@@ -50,7 +50,7 @@ def book_menu() -> None:
             try:
                 book = input_book()
 
-                result = BookService.add_book(book)
+                result =  BookService.add_book(book)
 
                 print(result)
 
@@ -354,7 +354,7 @@ def main() -> None:
         title("سیستم مدیریت کتابخانه")
         print("""
 ========================================
-          سیستم مدیریت کتابخانه
+          << سیستم مدیریت کتابخانه >>
 ========================================
 
 1. مدیریت کتاب‌ها
