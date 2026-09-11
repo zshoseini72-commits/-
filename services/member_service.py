@@ -15,7 +15,7 @@ class MemberService(BaseService):
 
     @classmethod
     def service_name(cls) -> str:
-        return "MemberService"
+        return "خدمات بخش اعضا"
 
     @classmethod
     def member_generator(cls) -> Generator[tuple[Cell | MergedCell, ...], None, None]:
