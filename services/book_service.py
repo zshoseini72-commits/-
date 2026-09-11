@@ -22,7 +22,7 @@ class BookService(BaseService):
 
     @classmethod
     def service_name(cls) -> str:
-        return "BookService"
+        return "خدمات بخش کتاب ها"
 
     @classmethod
     def book_generator(cls) -> Generator[tuple[Cell | MergedCell, ...], None, None]:
