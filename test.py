@@ -1,1 +1,5 @@
-print("hellow")
+def print:
+  print("hellow")
+
+
+print()
