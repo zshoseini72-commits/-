@@ -6,6 +6,6 @@ def print_me():
     print("hello")
 
 
-print_me()
+print_me2()
 
 print("zizi")
