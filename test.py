@@ -8,4 +8,4 @@ def print_me():
 
 print_me2()
 
-print("zizi")
+pri2nt("zizi")
